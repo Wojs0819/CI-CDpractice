@@ -6,6 +6,6 @@ public class Main {
     }
 
     public static String getFarewellMessage() {
-        return "Goodbye, World!";
+        return "Goodbye, World!!";
     }
 }

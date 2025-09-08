@@ -22,5 +22,10 @@ pipeline {
                 sh 'docker run --rm Bye-World-java'
             }
         }
+        stage('production') {
+            steps {
+                sh 'docker run --rm Bye-World-java'
+            }
+        }
     }
 }

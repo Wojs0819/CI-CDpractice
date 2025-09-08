@@ -6,6 +6,6 @@ public class HelloWorldTest {
     @Test
     public void testGetFarewellMessage() {
         ByeWorld byeWorld = new ByeWorld();
-        assertEquals("Goodbye, World!", byeWorld.getFarewellMessage());
+        assertEquals("Goodbye, World!!", byeWorld.getFarewellMessage());
     }
 }
