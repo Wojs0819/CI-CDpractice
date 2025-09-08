@@ -19,12 +19,12 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'docker run --rm Bye-World-java'
+                sh 'docker run --rm bye-world-java'
             }
         }
         stage('production') {
             steps {
-                sh 'docker run --rm Bye-World-java'
+                sh 'docker run --rm bye-world-java'
             }
         }
     }
